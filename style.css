@@ -1,7 +1,13 @@
-
+html{
+  font-size: 62.5%;
+}
 *{
     margin: 0;
+    
+
 }
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
@@ -12,10 +18,10 @@
 
 header{
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     margin: 0px;
     background-color: #8C6B5A;
-    padding:10px;
+    padding:1rem;
     margin-bottom: 0px;
     color: #ece6d3;
     font-weight: 400;
@@ -67,12 +73,12 @@ nav{
   margin-top: 1%;
   border: 1px black solid;
   border-radius: 8px;
-  padding: 10px;
+  padding: 1rem;
   transition: all 0.5s ease;
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 20px;
+  gap: 0.8rem;
+  font-size: 2rem;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   z-index: 2;
   position: relative;
@@ -460,8 +466,17 @@ nav{
   align-items: center;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   width: 35%;
+  transition: all 0.4s ease;     
+
 
 }
+
+.instagram span:hover {
+  transform: scale(1.05);
+  background-color: #5c4336;
+  cursor: pointer;
+}
+
 .instagram img{
   width: 20px;
   height: 20px;
@@ -510,42 +525,18 @@ nav{
   
 }
 
-/* avalição  */
-
-/* .rate{
-  margin-top: 80px;
-}
-
-.rate p:first-of-type {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.rate h1{
-  text-align: center;
-  padding-top: 18px;
-  font-size: 45px;
-}
-
-.rate p:nth-of-type(2) {
-  font-size: 20px;
-  text-align: center;
-  padding-top: 14px;
-} */
-
-
-
 /* Fotografia */
 
 .texto2{
     padding: 30px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-family: 'Playfair ' sans-serif;
     color: #181818;   
     font-size: 40px;
     font-weight: 400;
+
 }
 
 
@@ -564,7 +555,8 @@ nav{
   flex-direction: row-reverse;
   gap: 50px;
   min-width: 1100px;
-  width:1100px
+  width:1100px;
+  align-items: center;
 
 }
 
@@ -620,3 +612,19 @@ nav{
 
 }
 
+/* avalição  */
+
+.containertheo{
+    max-width: 1100px;  
+    display: flex;
+    justify-content: center;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+ 
+  max-width: 1100px;
+  
+}
