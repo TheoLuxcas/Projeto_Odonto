@@ -35,7 +35,7 @@ header{
 }
 
 /* Menu */
-nav{
+.navegacao{
     box-sizing: border-box;
     border-top: 1px solid black;
     height: 720px;
@@ -67,7 +67,7 @@ nav{
    
 }
 
-.button {
+.botao {
   float: right;
   margin-right: 1%;
   margin-top: 1%;
@@ -84,7 +84,7 @@ nav{
   position: relative;
 }
 
-.button:hover{
+.botao:hover{
     border: 1px black solid;
     background-color: #E0D6B8;
     transform: scale(1.08);
@@ -94,13 +94,13 @@ nav{
 
 
 /* Texto principal  */
-.article{
+.artigo{
    position: relative;
    top: 120px;
    margin-left:18% ;
 }
 
-.article h1 {
+.artigo h1 {
   max-width: 670px;
   font-weight: 700;
   line-height: 1.15;
@@ -110,7 +110,7 @@ nav{
 }
 
 
-.article p{
+.artigo p{
     height: 49px;
     text-align: justify;
     font-size:large ;
@@ -134,7 +134,7 @@ nav{
     
 }
 
-.button2 {
+.botao2 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -152,7 +152,7 @@ nav{
   margin-bottom: 20px;
 }
 
-.button2:hover {
+.botao2:hover {
   transform: scale(1.05);
   background-color: #E0D6B8;
   
@@ -166,7 +166,7 @@ nav{
 }
 
 /*  Bloco de estatísticas  */
-.stats {
+.estado {
   position: absolute;
   left: 50%;
   top: 760px;                         
@@ -217,7 +217,7 @@ nav{
     text-align: center;
     margin-top: 2%;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
@@ -236,7 +236,7 @@ nav{
     text-align: center;
     margin-top: 20px;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 50px;
 }
 
@@ -250,77 +250,77 @@ nav{
     
 
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    border: 1px black transparent;
-    padding: 200px 80px 40px 80px;
-    border-radius: 10px;
-    gap: 20px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-    font-size: 33px;
-    font-weight: 580;
-    margin-bottom: 20px;
-    width: 190px;
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+.cartao{
+  display: flex;
+  flex-direction: column;
+  border: 1px black transparent;
+  padding: 200px 80px 40px 80px;
+  border-radius: 10px;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 33px;
+  font-weight: 580;
+  margin-bottom: 20px;
+  width: 190px;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
     
 }
 
-.card1{
+.cartao1{
     background-image: linear-gradient(to top, rgb(61, 43, 34, 1), rgba(211, 194, 101, 0)),url(Imagens/consultorio/5506E54D-5EC6-4EAA-9D17-9E83C55C4096.png);
     
 }
 
 
-.card2{
+.cartao2{
     background-image: linear-gradient(to top, rgb(61, 43, 34, 1), rgba(211, 194, 101, 0)),url(Imagens/consultorio/aparelho\ ortodontico.jpeg);
     
 }
 
-.card3{
+.cartao3{
     background-image: linear-gradient(to top, rgb(61, 43, 34, 1), rgba(211, 194, 101, 0)),url(Imagens/consultorio/laser\ terapia.jpeg);
     
 }
 
-.card4{
+.cartao4{
     background-image: linear-gradient(to top, rgb(61, 43, 34, 1), rgba(211, 194, 101, 0)),url(Imagens/consultorio/remoção\ de\ tartaro.jpeg);
     
 }
 
 
-.card5{
+.cartao5{
     background-image: linear-gradient(to top, rgb(61, 43, 34, 1), rgba(211, 194, 101, 0)),url(Imagens/consultorio/CFE3D596-5B32-47D0-A9DA-C208DDB2D1E8.png);
     
 }
 
-.cardsix{
-    display: flex;
-    flex-direction: column;
-    border: 1px black transparent;
-    padding: 80px 80px 40px 80px;
-    border-radius: 10px;
-    gap: 20px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-    font-size: 30px;
-    font-weight: 580;
-    margin-bottom: 20px;
-    width: 190px;
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+.cartaosix{
+  display: flex;
+  flex-direction: column;
+  border: 1px black transparent;
+  padding: 80px 80px 40px 80px;
+  border-radius: 10px;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 580;
+  margin-bottom: 20px;
+  width: 190px;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
 }
-.card6{
+.cartao6{
     background-color:#3D2B22 ;
     
 
 }
-.card6>p{
+.cartao6>p{
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
@@ -331,7 +331,7 @@ nav{
     
 }
 
-.cardtexto6{
+.cartaotexto6{
     text-align: center;
 }
 
@@ -340,7 +340,7 @@ nav{
     height: 16px;
 }
 
-.button3-6{
+.botao3-6{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,7 +360,7 @@ nav{
   width: 100%;
 }
 
-.button3-6:hover {
+.botao3-6:hover {
   transform: scale(1.05);
   background-color: #ece6d3;
   color: #181818;
@@ -368,7 +368,7 @@ nav{
 }
 
 
-.button3 {
+.botao3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,7 +390,7 @@ nav{
 
 }
 
-.button3:hover {
+.botao3:hover {
   transform: scale(1.05);
   background-color: white;
   color: #181818;
@@ -415,7 +415,7 @@ nav{
 
 }
 
-.cardquem {
+.cartaoquem {
   background-color: #ece6d3;
   width: min(50%, 600px);
   padding: 50px ;
@@ -430,7 +430,7 @@ nav{
   
 }
 
-.cardquem h1 {
+.cartaoquem h1 {
   font-family: 'Playfair Display', Georgia, serif;
   font-size: clamp(26px, 2.5vw, 36px);
   font-weight: 700;
@@ -438,7 +438,7 @@ nav{
 
 }
 
-.cardquem p {
+.cartaoquem p {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-size: 21px;
   line-height: 1.4;
@@ -492,7 +492,7 @@ nav{
 }
 
 
-.cardmonique, .cardana{
+.cartaomonique, .cartaoana{
   width: 350px;
 
   height: 500px;
@@ -503,12 +503,12 @@ nav{
 
 }
 
-.cardmonique{
+.cartaomonique{
   background-image: url(Imagens/consultorio/fotomonique2.jpeg);
   
 }
 
-.cardana{
+.cartaoana{
   background-image: url(Imagens/consultorio/fotoana3.jpeg);
 }
 
@@ -579,7 +579,7 @@ nav{
 
 
 
-.cardtransform {
+.cartaotransform {
   background-color: #ece6d3;
   width: 500px;
   margin-right: 10%;
@@ -591,7 +591,7 @@ nav{
 }
 
 
-.cardtransform p {
+.cartaotransform p {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 1.6;
@@ -613,18 +613,357 @@ nav{
 }
 
 /* avalição  */
+.depoimentos {
+  margin-top: 130px;
+}
 
-.containertheo{
-    max-width: 1100px;  
-    display: flex;
-    justify-content: center;
+.depoimentos-depoimentos {
+  text-align: center;
+  margin-top: 2%;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.depoimentos h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Playfair ' sans-serif;
+  color: #181818;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.depoimentos-conteudo {
+  text-align: center;
+  margin-top: 18px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+
+
+
+/* ===== ESTILOS DO CARROSSEL DE AVALIAÇÃO ===== */
+.container_avaliacao {
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 10px;
   width: 100%;
   height: 100%;
   margin: 0 auto;
- 
+  margin-top: 0px;
   max-width: 1100px;
+
+}
+.carousel {
+  position: relative;
+}
+
+.carousel.slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-inner {
+  order: 1;
+}
+
+.carousel-indicators {
+  order: 2;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px;
+  order: 1;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-item-next:not(.carousel-item-start),
+.active.carousel-item-end {
+  transform: translateX(100%);
+}
+
+.carousel-item-prev:not(.carousel-item-end),
+.active.carousel-item-start {
+  transform: translateX(-100%);
+}
+
+.carousel .d-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel .w-25 {
+  width: 25%;
+}
+
+.carousel .pe-2 {
+  padding-right: 0;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+  padding-left: 8px;
+  padding-right: 150px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 40px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 0;
+  border: 0;
+  background: none;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233D2B22'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%233D2B22'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-indicators {
+  position: static;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px 0 0 0;
+  margin-left: 142px;
+  margin-right: 0px;
+  padding: 0;
+  list-style: none;
+  order: 2;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #3D2B22;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.carousel .d-flex img {
+  border-radius: 12px;
+}
+
+/* hover */
+.carousel .d-flex img {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+
+.carousel .d-flex img:hover {
+  border: 2px solid #ece6d3;
+  transform: scale(1.04);
+}
+
+/* ATE AQUI BOODSTRAP */
+
+
+
+/* Rede social celular */
+
+
+.rede_social{
+  margin-top: 220px;
+  width: 100%;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  position: relative;
+  background-image: url(Imagens/IMG_9827.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cardcelular{
+  border: #181818 1px solid;
+  width: 1100px;
+  height: 359px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #3D2B22;
+  padding-top: 25px;
+  max-width: 1100px;
+  flex-wrap: nowrap;
+}
+
+.texto_cardcelular{
+    max-width: 250px;
+    margin-left: 5%;
+}
+.texto_cardcelular .paragrafo{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.texto_cardcelular h1{
+    margin-top: 10px;
+    font-family: 'Playfair ' sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+.texto_cardcelular :nth-child(3){
+    
+    margin-top: 10px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.botao4 {
   
+  border: 1px black solid;
+  border-radius: 8px;
+  padding: 1.5rem 1.5rem; 
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  background-color: #3D2B22;
+  color: #fff;
+}
+.botao4 img{
+  width: 16px;
+  height: 16px;
+}
+.botao4:hover{
+   transform: scale(1.05);
+    
+}
+
+
+.smartphone{
+  align-self: flex-end;
+  margin-bottom: -3px;
+}
+
+
+.smartphone img{
+  height: 590px;
+ 
+}
+
+
+/* ----rodape---- */
+
+footer{
+  background-image: url(Imagens/IMG_9827.png) ;
+  background-position: bottom;
+  height: 995px;
+  display: flex;
+  justify-content: center;
+}
+
+.maps{
+  width: 800px;
+  height: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.maps iframe{
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.endereco{
+  margin-top: 150px;
+   display: flex;
+   gap: 500px;
 }
